@@ -84,5 +84,5 @@ Temperature is set to 0.2 to reduce variance and produce more consistent structu
 
 ## Example Output
 
-![App Output](screenshots/output.png.png)
+![App Output](screenshots/output.png)
 
