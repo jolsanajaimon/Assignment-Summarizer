@@ -2,6 +2,10 @@
 
 A full-stack app that accepts unstructured text and returns a structured summary using an LLM API. Built with React + Node.js as part of an AI Developer Intern assignment.
 
+## 🚀 Live Demo
+
+Check out the live site: https://assignment-summarizer-iac9.onrender.com
+
 ## Tech Stack
 
 - Frontend: React + Vite
