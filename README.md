@@ -1,4 +1,4 @@
-# Text Summarizer
+# Assignment Summarizer
 
 A full-stack app that accepts unstructured text and returns a structured summary using an LLM API. Built with React + Node.js as part of an AI Developer Intern assignment.
 
