@@ -6,12 +6,16 @@ A full-stack app that accepts unstructured text and returns a structured summary
 
 Check out the live site: https://assignment-summarizer-iac9.onrender.com
 
+---
+
 ## Tech Stack
 
 - Frontend: React + Vite
 - Backend: Node.js + Express
 - LLM: Groq API (llama-3.1-8b-instant)
 - Libraries: dotenv, cors, groq-sdk
+
+---
 
 ## Setup
 
@@ -47,6 +51,8 @@ cd client && npm run dev
 ```
 
 Open http://localhost:5173 in your browser.
+
+---
 
 ## Why Groq?
 
@@ -85,6 +91,8 @@ Temperature is set to 0.2 to reduce variance and produce more consistent structu
 - Unit tests for validate.js and JSON parsing logic
 - Schema customisation via a config flag
 - Confidence flag if the model sentiment score is near a boundary
+
+---
 
 ## Example Output
 
