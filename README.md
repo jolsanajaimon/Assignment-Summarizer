@@ -84,6 +84,8 @@ Temperature is set to 0.2 to reduce variance and produce more consistent structu
 - No test suite — would add with more time, starting with validate.js
 - Single endpoint — kept simple instead of over-engineering services
 
+---
+
 ## What I'd Add With More Time
 
 - File upload support (drag and drop a .txt or .pdf)
