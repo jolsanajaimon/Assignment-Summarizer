@@ -58,6 +58,8 @@ Open http://localhost:5173 in your browser.
 
 Groq provides a completely free API tier with no credit card required. It is fast, reliable, and uses the same interface as the OpenAI SDK, making it straightforward to integrate. The llama-3.1-8b-instant model follows structured JSON instructions reliably and responds quickly, which is ideal for this use case.
 
+---
+
 ## Prompt Design
 
 The prompt does four things intentionally:
@@ -69,12 +71,16 @@ The prompt does four things intentionally:
 
 Temperature is set to 0.2 to reduce variance and produce more consistent structured output.
 
+---
+
 ## Error Handling
 
 - Empty or too-short input is rejected before calling the API
 - Missing API key causes the server to exit with a clear message
 - Invalid JSON from the model is caught and reported cleanly
 - Frontend shows friendly error messages for all failure cases
+
+---
 
 ## Trade-offs & Shortcuts
 
